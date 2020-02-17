@@ -4,9 +4,35 @@
     box-sizing: border-box;
 }
 
-#pwd {
-    display: none;
+body {
+    background-color: purple;
 
 }
 
-#pwd-block.block {
+.font-blue {
+    color: gray;
+    font-weight: 700;
+}
+
+.font-italic {
+    color: yellow;
+    font-style: italic;
+}
+
+.font-underline {
+    text-decoration: underline;
+}
+
+.font-underline:hover {
+    cursor: pointer;
+    transform: scale(1.5);
+}
+
+#pwd-block {
+    display: flex;
+    height: 100vh;
+}
+
+#pwd-block .block {
+    margin: auto;
+}
