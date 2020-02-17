@@ -3,3 +3,10 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+#pwd {
+    display: none;
+
+}
+
+#pwd-block.block {
